@@ -6,7 +6,7 @@ export const TransferMoney = ({ Transfer }: {
     amount: number 
   }[] 
 }) => {
-  if (!Transfer.length) { // Correctly checking the length of the Transfer array
+  if (!Transfer.length) { 
     return (
       <Card title="Recent Transfers">
         <div className="text-md text-slate-400">
